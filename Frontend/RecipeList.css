@@ -1,0 +1,22 @@
+.recipe-list {
+  display: flex;  /* Makes items appear in a row */
+  flex-wrap: wrap; /* Allows wrapping if the screen is small */
+  justify-content: center; /* Centers the items */
+  gap: 15px; /* Space between items */
+}
+
+.recipe-item {
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 180px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.recipe-item img {
+  width: 150px;  /* Ensures all images are the same size */
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
